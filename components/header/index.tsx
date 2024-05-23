@@ -6,7 +6,7 @@ export default function Header(){
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <div className="space-x-2">
-                        <span className="font-semibold text-3xl">Misy</span>
+                        <span className="font-semibold text-3xl text-white">Misy</span>
                         <span className="text-purple-400 text-[10px] font-semibold align-top">Scrapper Beta</span>
                     </div>
                 </Link>
