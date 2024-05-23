@@ -16,6 +16,18 @@
   }
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+.background {
+  background-image: url('/misy.gif');
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  width: 1600px;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
